@@ -1,0 +1,67 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/home/danny/sound-machine-mega2560/include",
+                "/home/danny/sound-machine-mega2560/src",
+                "/home/danny/sound-machine-mega2560/lib/LCD_I2C",
+                "/home/danny/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/danny/sound-machine-mega2560/lib/Keypad/src",
+                "/home/danny/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/danny/.platformio/packages/framework-arduino-avr/variants/mega",
+                "/home/danny/.platformio/lib/ESP Async WebServer_ID306/src",
+                "/home/danny/.platformio/lib/EspSoftwareSerial/src",
+                "/home/danny/.platformio/lib/Plotter_ID850/src",
+                "/home/danny/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/danny/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/danny/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/danny/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/danny/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/danny/sound-machine-mega2560/include",
+                    "/home/danny/sound-machine-mega2560/src",
+                    "/home/danny/sound-machine-mega2560/lib/LCD_I2C",
+                    "/home/danny/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/danny/sound-machine-mega2560/lib/Keypad/src",
+                    "/home/danny/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/danny/.platformio/packages/framework-arduino-avr/variants/mega",
+                    "/home/danny/.platformio/lib/ESP Async WebServer_ID306/src",
+                    "/home/danny/.platformio/lib/EspSoftwareSerial/src",
+                    "/home/danny/.platformio/lib/Plotter_ID850/src",
+                    "/home/danny/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/danny/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/danny/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/danny/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/danny/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50001",
+                "ARDUINO_AVR_MEGA2560",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega2560__",
+                ""
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/danny/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega2560",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
